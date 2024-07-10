@@ -17,7 +17,7 @@ default_args = {
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
 }
-
+#this dag is for fetching data from api to bigquery
 # DAG definition
 dag = DAG(
     'datasf_to_bigquery',
